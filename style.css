@@ -1,8 +1,12 @@
 *{
-    /* background-image: url(./surveypic.jpg);
-    display: block; */
+   /* background-image: url(./survey2.jpg); */
+   image-resolution: 50%;
+   
 }
-
+#main{
+    background-image: url(./survey2.jpg);
+    
+}
 #title{
     text-align: center;
     color: red;
@@ -12,4 +16,51 @@
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+}
+#form-div{
+
+    padding-left: 40px;
+
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 800;
+
+    background-color: grey;
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 0.5em;
+    opacity: 70%;
+
+
+  
+}
+
+#name-text,#email-text,#age-text{
+    background-color: white;
+}
+#name-label,#name-text,#email-label,#email-text,#age-label,#age-text,#recomend-label,#may-be,#not-sure,#role-label,#drop-role,#improve{
+    margin-bottom: 10px;
+}
+
+
+#submit{
+    width: 30%;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+#submit:hover{
+    background-color: cadetblue;
+}
+
+#comment{
+    height: 60px;
+    width: 60%;
 }
