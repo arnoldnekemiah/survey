@@ -1,0 +1,15 @@
+*{
+    /* background-image: url(./surveypic.jpg);
+    display: block; */
+}
+
+#title{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.description{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
